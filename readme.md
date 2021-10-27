@@ -71,7 +71,7 @@
 
 在本章中，你将学习 Python 数据处理中最常用的三个工具 Numpy, Pandas, Matplotlib。几乎每一个实验都会用到这几个工具。熟练掌握它们是学习深度学习中的第一步。
 
-- [代码 Notebook 文件](chapter-02.ipynb) 建议使用 CPU 运行环境。
+- [代码 Notebook 文件](chapter-02常见工具介绍.ipynb) 建议使用 CPU 运行环境。
 
 ## 2.1 扩展资料
 
@@ -84,7 +84,7 @@
 
 在本章中您将通过动手实现一个神经网络来学习神经网络基础知识。由于本章重点在于动手实现，有不少知识点一带而过，所以实现过程遇到不懂的概念和公式不要慌，继续按照代码示例把神经网络实现了。实现完成后继续看第4章，看完第4章回过头来再看一遍第3章就能理解大部分内容。至于数学公式和推导，您只需要知道哪个阶段用了什么公式即可，并不要求掌握具体的推导过程。
 
-- [代码 Notebook 文件](chapter-03.ipynb) 建议使用 CPU 运行环境。
+- [代码 Notebook 文件](chapter-03从零开始搭建神经网络.ipynb) 建议使用 CPU 运行环境。
 
 ## 3.1 扩展资料
 
@@ -102,7 +102,7 @@
 
 在本章中你将通过搭建一个神经网络模型，了解深度学习的工作流程。读者们如果能够按照本章代码重现实验结果，完成 hello world 项目，就达成了学习目标。
 
-- [代码 Notebook 文件](chapter-05.ipynb) 建议使用 CPU 运行环境。
+- [代码 Notebook 文件](chapter-05泰坦尼克号幸存者预测.ipynb) 建议使用 CPU 运行环境。
 
 ## 5.1 扩展资料
 
@@ -112,7 +112,7 @@
 
 在本章中，您将学习 TensorFlow 2.0 版本的新特性，模型保存方法，训练回调函数和可视化。模型保存和训练回调是所有深度学习任务必须要掌握的技能，训练可视化则可以帮助您更好地理解和调试模型。
 
-- [代码 Notebook 文件](chapter-06.ipynb) 建议使用 CPU 运行环境。
+- [代码 Notebook 文件](chapter-06Tensorflow2介绍.ipynb) 建议使用 CPU 运行环境。
 
 ## 6.1 扩展资料
 
@@ -122,7 +122,7 @@
 
 在本章中，您将构建一个简单的模型入门图像识别，然后用卷积神经网络来优化图像识别的效果。
 
-- [代码 Notebook 文件](chapter-07.ipynb) 建议使用 CPU 运行环境。
+- [代码 Notebook 文件](chapter-07图像识别入门.ipynb) 建议使用 CPU 运行环境。
 
 ## 7.1 扩展资料
 
@@ -145,7 +145,7 @@ pip install pillow
 pip install tensorflow_hub
 ```
 
-- [代码 Notebook 文件](chapter-07.ipynb) 建议使用 GPU 运行环境。
+- [代码 Notebook 文件](chapter-07图像识别入门.ipynb) 建议使用 GPU 运行环境。
 
 ## 8.1 扩展资料
 
@@ -154,7 +154,7 @@ pip install tensorflow_hub
 
 # 第 9 章 图像画风迁移
 
-- [代码 Notebook 文件](chapter-09.ipynb) 建议使用 GPU 运行环境。
+- [代码 Notebook 文件](chapter-09图像风格迁移.ipynb) 建议使用 GPU 运行环境。
 
 **数据集**
 
@@ -168,7 +168,7 @@ pip install tensorflow_hub
 
 在本章中，我们将学习文本数据预处理，向量表示和循环神经网络的概念基础。
 
-- [代码 Notebook 文件](chapter-10.ipynb) 建议使用 CPU 运行环境。
+- [代码 Notebook 文件](chapter-10自然语言处理入门.ipynb) 建议使用 CPU 运行环境。
 
 **数据集**
 
@@ -191,7 +191,7 @@ pip install tensorflow_hub
 
 在本章中，我们通过解决一个语音助手类场景下的意图分类问题学习中文文本分类建模流程。对于短文本小语料类场景，我们通常使用预训练词嵌入提高模型性能和泛化能力。
 
-- [代码 Notebook 文件](chapter-11.ipynb) 建议使用 CPU 运行环境。
+- [代码 Notebook 文件](chapter-11语音助手意图分类.ipynb) 建议使用 CPU 运行环境。
 
 **数据集**
 
@@ -208,8 +208,8 @@ pip install tensorflow_hub
 
 在本章中，读者将学习如何使用编码-解码架构构建一个自然语言生成模型。通过写诗和翻译两个实例，分别了解 LSTM 语言模型和 Seq2Seq。
 
-- [代码 Notebook 文件 - LSTM 写诗](chapter-12-1.ipynb) 建议使用 GPU 运行环境。
-- [代码 Notebook 文件 - Seq2Seq 翻译](chapter-12-2.ipynb) 建议使用 GPU 运行环境。
+- [代码 Notebook 文件 - LSTM 写诗](chapter-12-1自然语言生成实践.ipynb) 建议使用 GPU 运行环境。
+- [代码 Notebook 文件 - Seq2Seq 翻译](chapter-12-2自然语言生成实践.ipynb) 建议使用 GPU 运行环境。
 
 **数据集**
 
@@ -225,7 +225,7 @@ pip install tensorflow_hub
 
 命名实体识别是自然语言处理中最基础的任务之一。本章中我们以人民日报语料实体识别任务为例，学习如何实现文本序列标注。同时学习如何使用BERT实现迁移学习来提高模型效果。
 
-- [代码 Notebook 文件](chapter-13.ipynb) 建议使用 GPU 运行环境。
+- [代码 Notebook 文件](chapter-13中文实体识别实战.ipynb) 建议使用 GPU 运行环境。
 
 **数据集**
 
