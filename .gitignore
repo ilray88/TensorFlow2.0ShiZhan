@@ -120,3 +120,4 @@ dmypy.json
 data/poetry
 data/bert
 /.idea/
+/data/
